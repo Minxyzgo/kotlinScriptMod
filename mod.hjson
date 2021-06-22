@@ -1,7 +1,7 @@
 name: "mindustry-kotlin-script-loader"
 displayName: "Mindustry Kotlin Script Loader"
 author: "Minxyzgo"
-main: "minxyzgo.mlib.Tool"
+main: "com.github.minxyzgo.compile.Compiler"
 description: "Library file"
 version: 0.1
 

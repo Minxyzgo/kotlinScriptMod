@@ -20,10 +20,10 @@ jobs:
       run: chmod +x gradlew
     
     - name: Build with Gradle
-      run: ./gradlew deploy
+      run: ./gradlew buildDex
          
     - name: Upload built jar file
       uses: actions/upload-artifact@v2
       with:
-        name: Stellaris
-        path: build/libs
+        name: dexed
+        path: build/libs/dexed-*.jar
