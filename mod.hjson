@@ -1,0 +1,8 @@
+name: "mindustry-kotlin-script-loader"
+displayName: "Mindustry Kotlin Script Loader"
+author: "Minxyzgo"
+main: "minxyzgo.mlib.Tool"
+description: "Library file"
+version: 0.1
+
+minGameVersion: 126.1
